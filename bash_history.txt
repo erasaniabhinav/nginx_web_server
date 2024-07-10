@@ -1,0 +1,134 @@
+    1  yum update -y
+    2  yum install -y httpd
+    3  systemctl status httpd
+    4  mkdir temp
+    5  cd temp/
+    6  wget https://www.free-css.com/assets/files/free-css-templates/download/page296/finexo.zip
+    7  ls -lrt
+    8  clear
+    9  ls -lrt
+   10  unzip complex.zip
+   11  unzip finexo.zip
+   12  ls - lrt
+   13  ls -lrt
+   14  cd finexo-html
+   15  ls -lrt
+   16  mv * /var/www/html/
+   17  cd /var/www/html/
+   18  ls -lrt
+   19  docker ps
+   20  dokcer ps -a
+   21  docker ps -a
+   22  docker search pandas
+   23   sudo systemctl start docker
+   24  sudo systemctl enable docker
+   25  sudo docker pull portainer/portainer-ce
+   26  sudo docker volume create portainer_data
+   27  sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+   28  sudo docker stop portainer
+   29  sudo docker rm portainer
+   30  sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+   31  quit
+   32  exit
+   33  docker images
+   34  docker pull nginx
+   35  docker run -d -p 80:80 nginx
+   36  exit
+   37  docker images
+   38  mkdir nginx-docker-project
+   39  ls
+   40  cd nginx-docker-project/
+   41  touch Dockerfile
+   42  nano Dockerfile 
+   43  touch nginx.conf
+   44  nano nginx.conf
+   45  mkdir html
+   46  touch html/index.html
+   47  nano html/index.html 
+   48  docker build -t my-nginx .
+   49  docker run -d -p 80:80 my-nginx
+   50  docker ps
+   51  docker ps -a
+   52  docker run -d -p 8080:80 my-nginx
+   53  docker ps
+   54  docker ps -a
+   55  docker ps
+   56  docker stop 651f40ba224b
+   57  docker ps
+   58  docker run -d -p 8080:80 my-nginx
+   59  docker ps
+   60  get init
+   61  git init
+   62  cd ..
+   63  sudo yum update -y
+   64  sudo yum install git -y
+   65  git --version
+   66  git config --global user.name "erasaniabhinav"
+   67  git config --global user.email "erasaniabhinav@gmail.com"
+   68  cd ~/nginx-docker-project
+   69  git init
+   70  git add .
+   71  git commit -m "Nginx Docker project"
+   72  git remote add origin https://github.com/erasaniabhinav/docker_projects.git
+   73  git push -u origin master
+   74  git init
+   75  git add .
+   76  git commit -m "Nginx Docker project"
+   77  git remote add origin https://github.com/erasaniabhinav/docker_projects.git
+   78  git push -u origin master
+   79  git --version
+   80  git config --global user.name "erasaniabhinav"
+   81  git config --global user.email "abhinavreddy0909@gmail.com"
+   82  git init
+   83  git add .
+   84  git commit -m "Initial commit of Nginx Docker project"
+   85  git remote add origin https://github.com/erasaniabhinav/docker_projects.git
+   86  git push -u origin master
+   87  git push -u https://YOUR_GITHUB_USERNAME:YOUR_PAT@github.com/erasaniabhinav/docker_projects.git
+   88  git push -u https://erasaniabhinav:YOUR_PAT@github.com/erasaniabhinav/docker_projects.git
+   89  git remote set-url origin https://erasaniabhinav:YOUR_PAT@github.com/erasaniabhinav/docker_projects.git
+   90  git push -u origin master
+   91  git push
+   92  git remote set-url origin https://erasaniabhinav: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 @github.com/erasaniabhinav/docker_projects.git
+   93  git push -u origin master
+   94  cd ~/nginx-docker-project
+   95  git init
+   96  git add .
+   97  git commit -m "Initial commit of Nginx Docker project"
+   98  git remote set-url origin https://erasaniabhinav:YOUR_PAT@github.com/erasaniabhinav/docker_projects.git
+   99  git push -u origin master
+  100  git remote set-url origin https://erasaniabhinav:YOUR_PAT@github.com/erasaniabhinav/docker_projects.git
+  101  git push -u origin master
+  102  git remote set-url origin https://erasaniabhinav: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 @github.com/erasaniabhinav/docker_projects.git
+  103  git push -u origin master
+  104  docker ps
+  105  docker ps -a
+  106  docker ps
+  107  docker run -d -p 8080:80 my-nginx
+  108  git init
+  109  git add .
+  110  git commit -m " Nginx Docker project"
+  111  git remote add origin https://github.com/erasaniabhinav/docker_projects.git
+  112  git push -u origin master
+  113  git add .gitignore
+  114  git add -u  # This will stage deletions for tracking
+  115  git commit -m "Clean up repository by removing unnecessary files and updating .gitignore"
+  116  git push origin master
+  117  git clone https://github.com/erasaniabhinav/nginx_web_server.git
+  118  cd nginx_web_server
+  119  ls -la nginx-docker-project
+  120  cd /path/to/your/nginx-docker-project
+  121  rm -rf .docker .ssh temp .bash_history .bash_logout .bash_profile .bashrc .cshrc .gitconfig .tcshrc .viminfo
+  122  git add .
+  123  git commit -m "Clean up project directory and remove unnecessary files"
+  124  git push origin master
+  125  ls
+  126  cd nginx-docker-project/
+  127  ls
+  128  cd ..
+  129  git add .
+  130  git commit -m "second commit - Nginx Docker project"
+  131  history > bash_history.txt
+  132  mv bash_history.txt /path/to/your/nginx-docker-project/
+  133  mv bash_history.txt /erasaniabhinav/nginx-docker-project/
+  134  history > bash_history.txt
